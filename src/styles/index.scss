@@ -1,0 +1,19 @@
+@import './base/colors.scss';
+@import './base/global.scss';
+@import './base/reset.scss';
+
+@import './utilities/margin.scss';
+@import './utilities/alignment.scss';
+
+@import './components/sidebar.scss';
+@import './components/header.scss';
+@import './components/inputField.scss';
+@import './components/button.scss';
+@import './components/table.scss';
+@import './components/filters.scss';
+@import './components/modal.scss';
+@import './components/filtersModal.scss';
+@import './components/checkbox.scss';
+
+@import './layout/orders.scss';
+@import './layout/order-detail.scss';

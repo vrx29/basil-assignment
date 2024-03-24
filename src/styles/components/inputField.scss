@@ -1,0 +1,27 @@
+.input {
+  height: 36px;
+  width: 227px;
+  display: flex;
+  align-items: center;
+  border-radius: 8px;
+  padding: 10px;
+  outline: none;
+  border: 1px solid #ced4da;
+
+  .icon {
+    height: 24px;
+    width: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: $color-grey-2;
+  }
+  input {
+    margin-left: 10px;
+    border: none;
+    color: $color-grey-2;
+    &::placeholder {
+      color: $color-grey-2;
+    }
+  }
+}

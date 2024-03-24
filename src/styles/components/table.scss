@@ -1,0 +1,54 @@
+.table {
+  margin-top: 1rem;
+  width: 100%;
+  padding: 1rem 2rem;
+  border-radius: 16px;
+  background-color: $color-white;
+  box-shadow: -2px 2px 10px -2px #ececec73;
+
+  .table-header {
+    font-family: DM Sans;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 22px;
+    color: $color-blue;
+    text-transform: uppercase;
+  }
+  tbody {
+    font-family: DM Sans;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 22px;
+    text-align: left;
+    color: $color-grey-3;
+  }
+  td,
+  th {
+    text-align: left;
+    padding: 8px 24px;
+  }
+}
+.table-footer {
+  margin: 16px 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: $color-grey-6;
+  font-family: DM Sans;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 22px;
+  text-align: left;
+
+  .table-actions {
+    display: flex;
+    gap: 10px;
+
+    button {
+      color: $color-grey-2;
+      &.primary {
+        color: $color-white;
+      }
+    }
+  }
+}

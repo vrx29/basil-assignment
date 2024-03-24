@@ -1,0 +1,52 @@
+/* Modal.css */
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #121212cc; /* Semi-transparent black overlay */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal {
+  width: 70vw;
+  min-height: 60vh;
+  background-color: white;
+  border-radius: 40px;
+  padding: 40px 53px;
+  box-shadow: 0px 8px 8px -8px #10182808;
+  box-shadow: 0px 20px 24px -4px #10182814;
+
+  .modal-header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 40px;
+    > p {
+      margin-left: 46%;
+      text-transform: uppercase;
+      font-family: DM Sans;
+      font-size: 20px;
+      font-weight: 700;
+      line-height: 21.95px;
+      letter-spacing: 0.01em;
+      text-align: center;
+      color: $color-grey-3;
+    }
+    > button {
+      margin-left: auto;
+      color: $color-danger;
+      svg {
+        height: 16px;
+      }
+    }
+  }
+}
+
+.close-btn {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}

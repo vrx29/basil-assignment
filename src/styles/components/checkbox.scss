@@ -1,0 +1,15 @@
+.checkbox {
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  width: 12px;
+  height: 12px;
+  border: 1px solid $color-blue;
+  border-radius: 2px;
+  outline: none;
+  cursor: pointer;
+}
+
+.checkbox:checked {
+  background-color: bl$color-blue; /* Change the background color when checked if needed */
+}
